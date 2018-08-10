@@ -1,0 +1,33 @@
+{
+  "name": "auth-challenge",
+  "version": "1.0.0",
+  "description": "Authentication Sprint Challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Authentication.git"
+  },
+  "keywords": [],
+  "author": "Lambda School",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/Sprint-Challenge-Authentication/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Authentication#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
